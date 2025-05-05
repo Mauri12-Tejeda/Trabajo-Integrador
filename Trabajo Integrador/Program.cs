@@ -72,72 +72,39 @@ namespace Trabajo_integrador
 
         public string NombrePer
         {
-            set
-            {
-                nombrePer = value;
-            }
-            get
-            {
-                return nombrePer;
-            }
+            set{nombrePer = value;}
+            get{return nombrePer;}
         }
 
         public string DniPer
         {
-            set
-            {
-                dniPer = value;
-            }
-            get
-            {
-                return dniPer;
-            }
+            set{dniPer = value;}
+            get{return dniPer;}
 
         }
 
         public int EdadPer
         {
-            set
-            {
-                edadPer = value;
-            }
-            get
-            {
-                return edadPer;
-            }
+            set{edadPer = value;}
+            get{return edadPer;}
         }
 
         public int CategoriaPer 
         {
-            set
-            {
-                categoriaPer = value;
-            }
-            get
-            {
-                return categoriaPer;
-            }
+            set{categoriaPer = value;}
+            get{return categoriaPer;}
 
         }
 
         public int UltMesPago
         {
-            set
-            {
-                ultMesPago = value;
-            }
-            get
-            {
-                return ultMesPago;
-            }
+            set{ultMesPago = value;}
+            get{return ultMesPago;}
         }
 
         public double DecuentoCuota
         {
-            get
-            {
-                return descuentoCuota;
-            }
+            get{return descuentoCuota;}
         }
     }
 }
