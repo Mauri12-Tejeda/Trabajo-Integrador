@@ -8,7 +8,7 @@ namespace Trabajo_integrador
     {
         static void Main(string[] args)
         {
-            //prueba de guardado aaaaaa
+            //AGREGUE PRIPIEDADES... NO PUSE NINGUN CONSTRUCTOR POR QUE NO SE COMO VA SER EL GUARDADO DE LAS PERSONAS
 
 
         }
@@ -17,6 +17,91 @@ namespace Trabajo_integrador
 
     class Deportes
     {
+        private string nombreEntrenador, dniEntrenador;
+        private int cupo, cantInscriptos;
+        private double costoCuota;
+        private string dias, horarios;
+
+
+        //PROPIEDADES
+        public string NombreEntrenador
+        {
+            set
+            {
+                nombreEntrenador = value;
+            }
+            get
+            {
+                return nombreEntrenador;
+            }
+        }
+        public string DniEntrenador
+        {
+            set
+            {
+                dniEntrenador=value;
+            }
+            get
+            {
+                return dniEntrenador;
+            }
+        }
+        public int Cupo
+        {
+            set
+            {
+                cupo = value;
+            }
+            get
+            {
+                return cupo;
+            }
+        }
+        public int CantInscriptos
+        {
+            set
+            {
+
+                cantInscriptos = value;
+            }
+            get
+            {
+                return cantInscriptos;
+            }
+        }
+        public double CostoCuota
+        {
+            set
+            {
+                costoCuota = value;
+            }
+            get
+            {
+                return costoCuota;
+            }
+        }
+        public string Dias
+        {
+            set
+            {
+              dias = value;
+            }
+            get
+            {
+                return dias;
+            }
+        }
+        public string Horarios
+        {
+            set
+            {
+                horarios = value;
+            }
+            get
+            {
+                return horarios;
+            }
+        }
 
     }
 
