@@ -26,81 +26,38 @@ namespace Trabajo_integrador
         //PROPIEDADES
         public string NombreEntrenador
         {
-            set
-            {
-                nombreEntrenador = value;
-            }
-            get
-            {
-                return nombreEntrenador;
-            }
+            set{nombreEntrenador = value;}
+            get{return nombreEntrenador;}
         }
         public string DniEntrenador
         {
-            set
-            {
-                dniEntrenador=value;
-            }
-            get
-            {
-                return dniEntrenador;
-            }
+            set{dniEntrenador=value;}
+            get{return dniEntrenador;}
         }
         public int Cupo
         {
-            set
-            {
-                cupo = value;
-            }
-            get
-            {
-                return cupo;
-            }
+            set{cupo = value;}
+            get{return cupo;}
         }
         public int CantInscriptos
         {
-            set
-            {
-
-                cantInscriptos = value;
-            }
-            get
-            {
-                return cantInscriptos;
-            }
+            set{cantInscriptos = value;}
+            get{return cantInscriptos;}
         }
         public double CostoCuota
         {
-            set
-            {
-                costoCuota = value;
-            }
-            get
-            {
-                return costoCuota;
-            }
+            set{costoCuota = value;}
+            get{return costoCuota;}
         }
         public string Dias
         {
-            set
-            {
-              dias = value;
-            }
-            get
-            {
-                return dias;
-            }
+            set{dias = value;}
+            get{return dias;}
         }
         public string Horarios
         {
-            set
-            {
-                horarios = value;
-            }
-            get
-            {
-                return horarios;
-            }
+            set{horarios = value;}
+            get{return horarios;}
         }
 
     }
